@@ -1,5 +1,7 @@
-import sys
-from collections import defaultdict
+# Esse problema é resolvido com algoritmo A*
+# O código contém quatro funções que giram as peças do quebra-cabeça em quatro direções diferentes. 
+# As funções turn_1, turn_2, turn_3 e turn_4 representam as rotações 
+# no sentido horário dos quadrantes superior esquerdo, superior direito, inferior esquerdo e inferior direito, respectivamente.
 
 def turn_1(a):
     temp_1 = a[10]

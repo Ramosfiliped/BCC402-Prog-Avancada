@@ -1,4 +1,11 @@
-#Não consegui fazer esse funcionar 100%
+# Não consegui fazer esse funcionar 100%
+
+# Mas a ideia é ler uma série de casos de teste, em que cada caso é dado
+# pelo número N de cubos, seguido das cores das faces de cada ccubo, em ordem reversa
+# Em seguida, para cada combinação de cubo e face, o programa calcula o número máximo 
+# de cubos que podem ser empilhados a partir daquela face e armazena o melhor resultado. 
+# Por fim, o programa imprime o número máximo de cubos que podem ser empilhados e a 
+# sequência de faces usadas para obter esse resultado.
 
 numberCanStack = [[-1]*105 for _ in range(505)]
 bestTopFaceToUse = [[-1]*105 for _ in range(505)]

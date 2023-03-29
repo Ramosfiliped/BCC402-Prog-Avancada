@@ -1,3 +1,10 @@
+# O código pré-calcula os primeiros elementos da sequência e armazena-os em uma lista chamada f. 
+# O valor limite para o pré-cálculo é definido como lim. Em seguida, o código lê o valor de n 
+# e verifica se é menor que lim. Se for, basta imprimir o valor correspondente na lista f. 
+# Caso contrário, o código executa um loop para encontrar o número de Schröder-Hipparchus n.
+
+# Link: https://github.com/Hikari9/UVa/blob/master/10049%20-%20Self-describing%20Sequence.cpp
+
 lim = 673368
 f = [1, 1, 2, 2]
 sz = 4

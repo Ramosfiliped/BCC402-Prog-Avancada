@@ -1,3 +1,13 @@
+# A função extendedEuclid é chamada para encontrar os valores x, y e d que 
+# satisfazem a equação diofantina linear n1x + n2y = d. 
+# Se v não for divisível por d, a saída é "failed". Caso contrário, a solução é 
+# calculada usando x, y, n1, n2, c1, c2 e v, e a saída é a solução que minimiza 
+# a função objetivo c1x + c2y, dentro do intervalo [lowerbound, upperbound], 
+# onde lowerbound e upperbound são calculados com base nas restrições do problema. 
+# Se não houver solução dentro desse intervalo, a saída é "failed".
+
+# Link: https://github.com/KHvic/uva-online-judge/blob/master/10090-Marbles.cpp
+
 import math
 
 def extendedEuclid(a, b):

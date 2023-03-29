@@ -1,3 +1,16 @@
+# A função stern_brocot recebe dois argumentos, nume e deno, 
+# que correspondem ao numerador e denominador da fração desejada. 
+# A função inicia as variáveis a e b com os valores passados como argumentos. 
+# Em seguida, define as variáveis left, right e mid como instâncias da classe Pair.
+
+# O algoritmo começa iterando até que o par de frações mid seja igual à fração desejada, 
+# representada pelos valores nume e deno. A cada iteração, a função calcula os valores v1 e v2, 
+# que correspondem aos numeradores das frações obtidas somando a e b com as frações adjacentes mid e left (ou mid e right). 
+# Se v1 é menor que v2, a variável right é atualizada com o valor de mid, e a fração mediantes 
+# correspondente é adicionada à sequência com o caracter 'L'. 
+# Caso contrário, a variável left é atualizada com o valor de mid, 
+# e a fração mediantes correspondente é adicionada à sequência com o caracter 'R'.
+
 class Pair():
     def __init__(self, fst, snd):
         self.fst = fst
