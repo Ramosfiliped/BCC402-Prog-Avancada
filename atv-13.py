@@ -2,6 +2,8 @@
 # e é igual ao menor valor entre a largura e o comprimento dividido por 2
 # Em seguida, o código determina o valor mínimo de x entre os picos retornados pela função peak_pair
 
+# Link: https://github.com/Hikari9/UVa/blob/master/10215%20-%20The%20Largest%20Smallest%20Box....cpp
+
 '''
 Exemplos de teste:
 (1)

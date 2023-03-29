@@ -3,6 +3,8 @@
 # bem como as diferenças entre as somas de quadrados, 
 # cubos e quartas potências e as somas de todas as potências menores.
 
+#Link: https://github.com/KHvic/uva-online-judge/blob/master/10177-(2%203%204)-D%20Sqr%20Rects%20Cubes%20Boxes%3F.cpp
+
 '''
 Exemplos de teste:
 (1)

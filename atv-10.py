@@ -3,6 +3,8 @@
 # Se alguma cidade não foi alcançada e pertence ao mesmo componente conexo da cidade de origem,
 # então a cidade de origem preisa de uma câmera de segurança
 
+# Link: https://github.com/Zeronfinity/UVa-Solutions/blob/master/10199%20-%20Tourist%20Guide.cpp
+
 '''
 Exemplos de teste:
 
