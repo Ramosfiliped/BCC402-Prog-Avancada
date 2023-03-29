@@ -3,8 +3,6 @@
 numberCanStack = [[-1]*105 for _ in range(505)]
 bestTopFaceToUse = [[-1]*105 for _ in range(505)]
 
-# Each cube, 0 and 1 pair, 2 and 3 pair, 4 and 5 pair
-# so X pairs with X^1
 cubes = [[-1]*6 for _ in range(505)]
 
 def to_face(face_pos):
